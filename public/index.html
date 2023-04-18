@@ -1,0 +1,52 @@
+<!-- This is an HTML document that defines the structure and content of a web page. It includes various
+elements such as the document type declaration (`<!DOCTYPE html>`), the head section with metadata
+and links to external resources, the body section with the actual content of the page, and various
+HTML tags to structure and style the content. It also includes a script tag at the end to link to a
+JavaScript file that provides interactivity to the page. -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div>
+               
+                <a href="./">
+                    <img id="logo" src="images/logo.png" alt="">  
+                </a>
+            </div>
+            <div>
+          
+        </header>
+       
+        <h2>NBA MVP Search</h2>
+        
+       <div id="mainBox" class="d-flex justify-content-center align-items-center" >
+            <form class="form1">
+                <label for="year">Search by year:</label>
+                <input type="number" id="year" name="year">
+    
+                <button id="submit" class="btn" type="submit">Search</button>
+            </form>
+            <form class="form2" action="">
+                <label for="name">Search by name:</label>
+                <input type="text" id="name" name="name">
+                <button id="submit2" class="btn" type="submit">Search</button>
+            </form>
+          
+           
+        </div>
+        <div id="results"></div>
+
+        <footer><img id="social" src="images/facebook.png"><img id="social" src="images/twitter.png"><img id="social" src="images/instagram.png"><img id="social" src="images/youtube.png"></footer>
+      
+        <script src="/js/main.js" async defer></script>
+    </body>
+
+</html>
